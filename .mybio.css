@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-image: url(teknologi3.jpg);
+    background-size: auto;
+    object-fit: fill;
+}
+
+.container {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 50px auto;
+    width: 1100px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.844);
+    border-radius: 50px;
+    border-bottom: 0px solid black;
+    box-shadow: inset 0 0 5px 1px black;
+}
+
+.container .foto {
+    margin:auto ;
+    width: 150px;
+    height: 150px;
+    background-image: url(zendhi_umsida.jpg);
+    background-size: 100%;
+    background-position: 0px;
+    border-radius: 50%;
+    border: red solid 3px;
+    animation: foto 5s infinite;
+}
+
+@keyframes foto {
+    0% {  border: red 3px solid;  }
+    20% {  border: yellow 3px solid;  }
+    40% {  border: green 3px solid;  }
+    60% {  border: purple 3px solid;  }
+    80% {  border: blue 3px solid;  }
+    99% {  border: red 3px solid;  }
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    animation: h1 4s ease;
+}
+
+@keyframes h1 {
+    0% {
+        color:rgba(255, 255, 255, 0.844);
+    }
+    50% {
+        color: gray;
+    }
+}
+
+.isi {
+    font-size: 25px;
+    text-align: center;
+    color:black;
+    animation: isi 6s ease;
+}
+
+@keyframes isi {
+    0% {
+        color:rgba(255, 255, 255, 0.844);
+    }
+    50% {
+        color: gray;
+    }
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    animation: p 7s ease;
+}
+
+@keyframes p {
+    0% {
+        color:rgba(255, 255, 255, 0.844);
+    }
+    50% {
+        color: gray;
+    }
+}
+
+.link ul li {
+    margin-top: 40px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ig {
+    background-image: url(ig1.png);
+    background-size: 300px;
+    background-position: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.ig:hover {
+    box-shadow:  0px 0px 10px 1px black;
+}
+
+.fb {
+    background-image: url(fb1.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.fb:hover {
+    box-shadow:  0px 0px 10px 1px black;
+}
+
+.twit {
+    background-image: url(twit2.png);
+    background-size: 100%;
+    background-position: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.twit:hover {
+    box-shadow:  0px 0px 10px 1px black;
+}
